@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+            geralmente 16px = 1em
+            oficialmente são recomendadas px e em
+            */
+            font-size: 1em;
+            /* peso das fontes: lighter normal bold bolder
+            nem todas as fontes tem muita variação do peso */
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: underline;
+        }
+
+        h1 {
+            /*
+            shorthand font
+            - font-style => font-weight => font-size => font-family
+            */
+            font: italic bolder 3em arial;
+        }
+
+        h2 {
+            font: bold 2em 'Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dicta ut optio cum asperiores inventore non delectus, quasi sunt, enim eaque aliquid earum numquam neque harum reprehenderit necessitatibus. Alias, aliquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ratione? Rerum debitis vitae ratione, aut autem vero accusamus, quod quo voluptate, reiciendis itaque tempora accusantium nihil quos dignissimos corporis dolorum!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea nostrum illum reiciendis illo facere libero magnam alias quia repellendus ratione eius consequatur molestias accusamus commodi, minima explicabo suscipit totam doloremque.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit id nemo porro distinctio atque laborum doloribus beatae cupiditate, dignissimos dolorum odio quo, numquam deleniti amet maxime aperiam voluptates possimus maiores?</p>
+</body>
+</html>
