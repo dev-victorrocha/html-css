@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -35,9 +36,17 @@
             color: white;
         }
 
+        thead > tr > th {
+            /* deixa o cabeçalho fixo */
+            position: sticky;
+            top: -1;
+            background-color: gray;
+        }
+
         tbody > tr:nth-child(odd) { /* 2n - 1 */
             background-color: white;
         }
+        
         tbody > tr:nth-child(even){ /* 2n */
             background-color: lightgray;
         }
@@ -91,5 +100,6 @@
             <td class="num"><strong>84.352.783</strong></td>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, a voluptates. Reprehenderit voluptas, repellendus facilis facere in, illo accusantium adipisci, eius hic officia sunt sequi corrupti esse beatae ipsa! Quibusdam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, molestias minima! Corporis officiis fugit ab illo vel fuga veritatis asperiores qui architecto ex voluptate ullam hic harum nihil, sed facilis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil blanditiis iure dicta autem excepturi enim rerum consectetur asperiores dolores praesentium voluptatum veniam explicabo, incidunt beatae optio? Iusto officia velit quidem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam rerum ut, odio cum pariatur fugit assumenda officia quam expedita distinctio eos esse soluta, id reiciendis minus earum culpa. Harum, tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quod atque, aperiam mollitia repellat beatae consequatur tempora quis aliquid explicabo fugit velit consectetur, perspiciatis nulla voluptatum asperiores fuga odit assumenda!</p>
 </body>
 </html>

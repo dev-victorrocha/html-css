@@ -3,4 +3,15 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios
 
- <a href="https://dev-victorrocha.github.io/html-css/modulo-2/desafios/d010/d010%20v2/v2.html">Executar o desafio 10</a>
+ <h1>Meus projetos</h1>
+ <ul>
+    <li>
+        <p><a href="https://dev-victorrocha.github.io/painel-github-v1">vitrine de projetos</a></p>
+    </li>
+    <li>
+        <p><a href="https://dev-victorrocha.github.io/projeto-android">site responsivo android</a></p>
+    </li>
+    <li>
+        <p><a href="https://dev-victorrocha.github.io/cordel-v2">site cordel com efeito paralax</a></p>
+    </li>
+ </ul>
