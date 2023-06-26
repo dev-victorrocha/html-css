@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forumulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- GET - dados visíveis na URL (dados não-sensíveis/compartilháveis) 3000 bites
+         POST - dados invisíveis na URL (não-criptografado) -->
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="off">
+        <!-- action envia -->
+        <!-- label = etiqueta que cria ligação entre texto e caixa -->
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+        <!-- input:text -->
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+        <!-- input:submit -->
+    </form>
+</body>
+</html>
